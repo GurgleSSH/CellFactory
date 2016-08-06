@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B3B99A81D2E4831002426FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99A71D2E4831002426FB /* main.m */; };
+		4B3B99AB1D2E4831002426FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99AA1D2E4831002426FB /* AppDelegate.m */; };
+		4B3B99AE1D2E4831002426FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99AD1D2E4831002426FB /* ViewController.m */; };
+		4B3B99B11D2E4831002426FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B99AF1D2E4831002426FB /* Main.storyboard */; };
+		4B3B99B31D2E4831002426FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B99B21D2E4831002426FB /* Assets.xcassets */; };
+		4B3B99B61D2E4831002426FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3B99B41D2E4831002426FB /* LaunchScreen.storyboard */; };
+		4B3B99DE1D2E497B002426FB /* LSCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99C41D2E497B002426FB /* LSCellFactory.m */; };
+		4B3B99DF1D2E497B002426FB /* CellForSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99C81D2E497B002426FB /* CellForSwitchButton.m */; };
+		4B3B99E01D2E497B002426FB /* SwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99CA1D2E497B002426FB /* SwitchButton.m */; };
+		4B3B99E11D2E497B002426FB /* CellForSystemDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99CD1D2E497B002426FB /* CellForSystemDefault.m */; };
+		4B3B99E21D2E497B002426FB /* SystemDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99CF1D2E497B002426FB /* SystemDefault.m */; };
+		4B3B99E31D2E497B002426FB /* CellForSystemSubtitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99D21D2E497B002426FB /* CellForSystemSubtitle.m */; };
+		4B3B99E41D2E497B002426FB /* SystemSubtitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99D41D2E497B002426FB /* SystemSubtitle.m */; };
+		4B3B99E51D2E497B002426FB /* CellForSystemValue1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99D71D2E497B002426FB /* CellForSystemValue1.m */; };
+		4B3B99E61D2E497B002426FB /* SystemValue1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99D91D2E497B002426FB /* SystemValue1.m */; };
+		4B3B99E71D2E497B002426FB /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99DB1D2E497B002426FB /* Type.m */; };
+		4B3B99EB1D2E4A10002426FB /* UITableViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99EA1D2E4A10002426FB /* UITableViewBase.m */; };
+		4B3B99EF1D2E4D89002426FB /* UITableViewCellBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B99EE1D2E4D89002426FB /* UITableViewCellBase.m */; };
+		E18FCAAD1B34743CA2F94549 /* libPods-LSCellFactory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EDE371363354C195C98C1D /* libPods-LSCellFactory.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47F0FA677CF0C3211C465A84 /* Pods-LSCellFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSCellFactory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSCellFactory/Pods-LSCellFactory.debug.xcconfig"; sourceTree = "<group>"; };
+		4B3B99A31D2E4831002426FB /* LSCellFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSCellFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3B99A71D2E4831002426FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B3B99A91D2E4831002426FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B3B99AA1D2E4831002426FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B3B99AC1D2E4831002426FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B3B99AD1D2E4831002426FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B3B99B01D2E4831002426FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B3B99B21D2E4831002426FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B3B99B51D2E4831002426FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B3B99B71D2E4831002426FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3B99C31D2E497B002426FB /* LSCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCellFactory.h; sourceTree = "<group>"; };
+		4B3B99C41D2E497B002426FB /* LSCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCellFactory.m; sourceTree = "<group>"; };
+		4B3B99C51D2E497B002426FB /* LSCellFactoryStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCellFactoryStrings.h; sourceTree = "<group>"; };
+		4B3B99C71D2E497B002426FB /* CellForSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellForSwitchButton.h; sourceTree = "<group>"; };
+		4B3B99C81D2E497B002426FB /* CellForSwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellForSwitchButton.m; sourceTree = "<group>"; };
+		4B3B99C91D2E497B002426FB /* SwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchButton.h; sourceTree = "<group>"; };
+		4B3B99CA1D2E497B002426FB /* SwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchButton.m; sourceTree = "<group>"; };
+		4B3B99CC1D2E497B002426FB /* CellForSystemDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellForSystemDefault.h; sourceTree = "<group>"; };
+		4B3B99CD1D2E497B002426FB /* CellForSystemDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellForSystemDefault.m; sourceTree = "<group>"; };
+		4B3B99CE1D2E497B002426FB /* SystemDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemDefault.h; sourceTree = "<group>"; };
+		4B3B99CF1D2E497B002426FB /* SystemDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemDefault.m; sourceTree = "<group>"; };
+		4B3B99D11D2E497B002426FB /* CellForSystemSubtitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellForSystemSubtitle.h; sourceTree = "<group>"; };
+		4B3B99D21D2E497B002426FB /* CellForSystemSubtitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellForSystemSubtitle.m; sourceTree = "<group>"; };
+		4B3B99D31D2E497B002426FB /* SystemSubtitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemSubtitle.h; sourceTree = "<group>"; };
+		4B3B99D41D2E497B002426FB /* SystemSubtitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemSubtitle.m; sourceTree = "<group>"; };
+		4B3B99D61D2E497B002426FB /* CellForSystemValue1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellForSystemValue1.h; sourceTree = "<group>"; };
+		4B3B99D71D2E497B002426FB /* CellForSystemValue1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellForSystemValue1.m; sourceTree = "<group>"; };
+		4B3B99D81D2E497B002426FB /* SystemValue1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemValue1.h; sourceTree = "<group>"; };
+		4B3B99D91D2E497B002426FB /* SystemValue1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemValue1.m; sourceTree = "<group>"; };
+		4B3B99DA1D2E497B002426FB /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
+		4B3B99DB1D2E497B002426FB /* Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.m; sourceTree = "<group>"; };
+		4B3B99E91D2E4A10002426FB /* UITableViewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewBase.h; sourceTree = "<group>"; };
+		4B3B99EA1D2E4A10002426FB /* UITableViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewBase.m; sourceTree = "<group>"; };
+		4B3B99ED1D2E4D89002426FB /* UITableViewCellBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewCellBase.h; sourceTree = "<group>"; };
+		4B3B99EE1D2E4D89002426FB /* UITableViewCellBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewCellBase.m; sourceTree = "<group>"; };
+		4B3B99F01D2E4E82002426FB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A8D604D6658DE64AD797B509 /* Pods-LSCellFactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSCellFactory.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSCellFactory/Pods-LSCellFactory.release.xcconfig"; sourceTree = "<group>"; };
+		B5EDE371363354C195C98C1D /* libPods-LSCellFactory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSCellFactory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B3B99A01D2E4831002426FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18FCAAD1B34743CA2F94549 /* libPods-LSCellFactory.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4887B1FE556505975131ED69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5EDE371363354C195C98C1D /* libPods-LSCellFactory.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B3B999A1D2E4831002426FB = {
+			isa = PBXGroup;
+			children = (
+				4887B1FE556505975131ED69 /* Frameworks */,
+				4B3B99A51D2E4831002426FB /* LSCellFactory */,
+				D8D51939DF68EE955729EBD8 /* Pods */,
+				4B3B99A41D2E4831002426FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3B99A41D2E4831002426FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B99A31D2E4831002426FB /* LSCellFactory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3B99A51D2E4831002426FB /* LSCellFactory */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B99BD1D2E497B002426FB /* LSCellFactory */,
+				4B3B99A61D2E4831002426FB /* Supporting Files */,
+				4B3B99A91D2E4831002426FB /* AppDelegate.h */,
+				4B3B99AA1D2E4831002426FB /* AppDelegate.m */,
+				4B3B99B21D2E4831002426FB /* Assets.xcassets */,
+				4B3B99B71D2E4831002426FB /* Info.plist */,
+				4B3B99B41D2E4831002426FB /* LaunchScreen.storyboard */,
+				4B3B99AF1D2E4831002426FB /* Main.storyboard */,
+				4B3B99AC1D2E4831002426FB /* ViewController.h */,
+				4B3B99AD1D2E4831002426FB /* ViewController.m */,
+			);
+			path = LSCellFactory;
+			sourceTree = "<group>";
+		};
+		4B3B99A61D2E4831002426FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B99F01D2E4E82002426FB /* PrefixHeader.pch */,
+				4B3B99A71D2E4831002426FB /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B3B99BD1D2E497B002426FB /* LSCellFactory */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B99C61D2E497B002426FB /* SwitchButton */,
+				4B3B99CB1D2E497B002426FB /* SystemDefault */,
+				4B3B99D01D2E497B002426FB /* SystemSubtitle */,
+				4B3B99D51D2E497B002426FB /* SystemValue1 */,
+				4B3B99E81D2E4A10002426FB /* UITableViewBase */,
+				4B3B99EC1D2E4D89002426FB /* UITableViewCellBase */,
+				4B3B99C31D2E497B002426FB /* LSCellFactory.h */,
+				4B3B99C41D2E497B002426FB /* LSCellFactory.m */,
+				4B3B99C51D2E497B002426FB /* LSCellFactoryStrings.h */,
+				4B3B99DA1D2E497B002426FB /* Type.h */,
+				4B3B99DB1D2E497B002426FB /* Type.m */,
+			);
+			path = LSCellFactory;
+			sourceTree = "<group>";
+		};
+		4B3B99C61D2E497B002426FB /* SwitchButton */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B99C71D2E497B002426FB /* CellForSwitchButton.h */,
+				4B3B99C81D2E497B002426FB /* CellForSwitchButton.m */,
+				4B3B99C91D2E497B002426FB /* SwitchButton.h */,
+				4B3B99CA1D2E497B002426FB /* SwitchButton.m */,
+			);
+			path = SwitchButton;
+			sourceTree = "<group>";
+		};
+		4B3B99CB1D2E497B002426FB /* SystemDefault */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B99CC1D2E497B002426FB /* CellForSystemDefault.h */,
+				4B3B99CD1D2E497B002426FB /* CellForSystemDefault.m */,
+				4B3B99CE1D2E497B002426FB /* SystemDefault.h */,
+				4B3B99CF1D2E497B002426FB /* SystemDefault.m */,
+			);
+			path = SystemDefault;
+			sourceTree = "<group>";
+		};
+		4B3B99D01D2E497B002426FB /* SystemSubtitle */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B99D11D2E497B002426FB /* CellForSystemSubtitle.h */,
+				4B3B99D21D2E497B002426FB /* CellForSystemSubtitle.m */,
+				4B3B99D31D2E497B002426FB /* SystemSubtitle.h */,
+				4B3B99D41D2E497B002426FB /* SystemSubtitle.m */,
+			);
+			path = SystemSubtitle;
+			sourceTree = "<group>";
+		};
+		4B3B99D51D2E497B002426FB /* SystemValue1 */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B99D61D2E497B002426FB /* CellForSystemValue1.h */,
+				4B3B99D71D2E497B002426FB /* CellForSystemValue1.m */,
+				4B3B99D81D2E497B002426FB /* SystemValue1.h */,
+				4B3B99D91D2E497B002426FB /* SystemValue1.m */,
+			);
+			path = SystemValue1;
+			sourceTree = "<group>";
+		};
+		4B3B99E81D2E4A10002426FB /* UITableViewBase */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B99E91D2E4A10002426FB /* UITableViewBase.h */,
+				4B3B99EA1D2E4A10002426FB /* UITableViewBase.m */,
+			);
+			path = UITableViewBase;
+			sourceTree = "<group>";
+		};
+		4B3B99EC1D2E4D89002426FB /* UITableViewCellBase */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B99ED1D2E4D89002426FB /* UITableViewCellBase.h */,
+				4B3B99EE1D2E4D89002426FB /* UITableViewCellBase.m */,
+			);
+			path = UITableViewCellBase;
+			sourceTree = "<group>";
+		};
+		D8D51939DF68EE955729EBD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47F0FA677CF0C3211C465A84 /* Pods-LSCellFactory.debug.xcconfig */,
+				A8D604D6658DE64AD797B509 /* Pods-LSCellFactory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B3B99A21D2E4831002426FB /* LSCellFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3B99BA1D2E4831002426FB /* Build configuration list for PBXNativeTarget "LSCellFactory" */;
+			buildPhases = (
+				544FE7E498540715AA85C130 /* Check Pods Manifest.lock */,
+				4B3B999F1D2E4831002426FB /* Sources */,
+				4B3B99A01D2E4831002426FB /* Frameworks */,
+				4B3B99A11D2E4831002426FB /* Resources */,
+				3BD99D94F4BA8C150D81FC3E /* Embed Pods Frameworks */,
+				BEC8C8C30D0FF6105EB51F13 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSCellFactory;
+			productName = LSCellFactory;
+			productReference = 4B3B99A31D2E4831002426FB /* LSCellFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B3B999B1D2E4831002426FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "liushuai1992@gmail.com";
+				TargetAttributes = {
+					4B3B99A21D2E4831002426FB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B3B999E1D2E4831002426FB /* Build configuration list for PBXProject "LSCellFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B3B999A1D2E4831002426FB;
+			productRefGroup = 4B3B99A41D2E4831002426FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B3B99A21D2E4831002426FB /* LSCellFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B3B99A11D2E4831002426FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3B99B61D2E4831002426FB /* LaunchScreen.storyboard in Resources */,
+				4B3B99B31D2E4831002426FB /* Assets.xcassets in Resources */,
+				4B3B99B11D2E4831002426FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BD99D94F4BA8C150D81FC3E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSCellFactory/Pods-LSCellFactory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		544FE7E498540715AA85C130 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC8C8C30D0FF6105EB51F13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSCellFactory/Pods-LSCellFactory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B3B999F1D2E4831002426FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3B99E41D2E497B002426FB /* SystemSubtitle.m in Sources */,
+				4B3B99E11D2E497B002426FB /* CellForSystemDefault.m in Sources */,
+				4B3B99AE1D2E4831002426FB /* ViewController.m in Sources */,
+				4B3B99E61D2E497B002426FB /* SystemValue1.m in Sources */,
+				4B3B99E51D2E497B002426FB /* CellForSystemValue1.m in Sources */,
+				4B3B99AB1D2E4831002426FB /* AppDelegate.m in Sources */,
+				4B3B99EF1D2E4D89002426FB /* UITableViewCellBase.m in Sources */,
+				4B3B99E21D2E497B002426FB /* SystemDefault.m in Sources */,
+				4B3B99EB1D2E4A10002426FB /* UITableViewBase.m in Sources */,
+				4B3B99DE1D2E497B002426FB /* LSCellFactory.m in Sources */,
+				4B3B99E31D2E497B002426FB /* CellForSystemSubtitle.m in Sources */,
+				4B3B99E71D2E497B002426FB /* Type.m in Sources */,
+				4B3B99A81D2E4831002426FB /* main.m in Sources */,
+				4B3B99DF1D2E497B002426FB /* CellForSwitchButton.m in Sources */,
+				4B3B99E01D2E497B002426FB /* SwitchButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B3B99AF1D2E4831002426FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3B99B01D2E4831002426FB /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		4B3B99B41D2E4831002426FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3B99B51D2E4831002426FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B3B99B81D2E4831002426FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B3B99B91D2E4831002426FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B3B99BB1D2E4831002426FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F0FA677CF0C3211C465A84 /* Pods-LSCellFactory.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LSCellFactory/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = LSCellFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liushuai1992.LSCellFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B3B99BC1D2E4831002426FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D604D6658DE64AD797B509 /* Pods-LSCellFactory.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LSCellFactory/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = LSCellFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liushuai1992.LSCellFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3B999E1D2E4831002426FB /* Build configuration list for PBXProject "LSCellFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3B99B81D2E4831002426FB /* Debug */,
+				4B3B99B91D2E4831002426FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3B99BA1D2E4831002426FB /* Build configuration list for PBXNativeTarget "LSCellFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3B99BB1D2E4831002426FB /* Debug */,
+				4B3B99BC1D2E4831002426FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B3B999B1D2E4831002426FB /* Project object */;
+}
